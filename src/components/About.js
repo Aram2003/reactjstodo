@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer.js';
-import Jumbotron from '../components/Jumbotron.js';
-
+import Footer from './Footer.js';
+import Jumbotron from '.Jumbotron.js';
+import Header from './Header.js';
 class About extends Component {
   render() {
     return (
       <div className='ee'>
+        <Header/>
         <Jumbotron title="About Me!" subtitle="All about me"/>
         <div className="container">
           <p>I am Aram Martirosyan.I am 14.I live in Yerevan,Armenia.I want to be a good programmer and I work hard for it.

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer.js';
-import Jumbotron from '../components/Jumbotron.js';
+import Footer from './Footer.js';
+import Jumbotron from './Jumbotron.js';
 import List from './List.js';
-
+import Header from './Header.js';
 class Todo extends Component {
   constructor(props){
     super(props);
@@ -26,6 +26,7 @@ class Todo extends Component {
   render() {
     return (
         <div>
+          <Header/>
         <Jumbotron title="Todo" subtitle="simple todo list"/>
         <form onSubmit={this.onSubmit}>
         <input className="tt" 

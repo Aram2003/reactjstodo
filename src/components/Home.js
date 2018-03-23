@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer.js';
-
-import Jumbotron from '../components/Jumbotron.js';
+import Footer from './Footer.js';
+import Jumbotron from './Jumbotron.js';
+import Header from './Header.js';
 class Home extends Component {
   render() {
     return (
       <div className='wrapper'>
+      <Header/>
         <Jumbotron title="Welcome to " subtitle="My ReactJS App" />
         <div className="content">
           <h2 className="bn">Hello World</h2>

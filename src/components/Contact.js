@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer.js';
-import Jumbotron from '../components/Jumbotron.js';
+import Footer from './Footer.js';
+import Jumbotron from './Jumbotron.js';
+import Header from './Header.js';
 class About extends Component {
   render() {
     return (
       <div className='ee'>
+        <Header/>
         <Jumbotron title="Contact" subtitle="Contact us"/>
         <div className="container">
          <p>You can contact us by going TUMO,or send email to this mail:aram.martirosyan.y@tumo.org</p>
