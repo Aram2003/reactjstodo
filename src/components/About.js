@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './Footer.js';
-import Jumbotron from '.Jumbotron.js';
+import Jumbotron from './Jumbotron.js';
 import Header from './Header.js';
 class About extends Component {
   render() {
