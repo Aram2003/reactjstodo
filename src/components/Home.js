@@ -6,14 +6,73 @@ class Home extends Component {
   render() {
     return (
       <div className='wrapper'>
-        <Header/>
-        <Jumbotron title="Welcome to " subtitle="My ReactJS App" />
-        <div className="content">
-          <h2 className="bn">Hello World</h2>
-          <p className="qw">What’s more friendly that a simple “hello”? This is probably the most common trend that I come across and is simply everywhere in designer portfolios these days. The idea is of course to make the site seem that much more alive and friendly, as if it’s a person welcoming you in. This is often effective when combined with a photo or
-              tion of the designer so it’s clear who the message is coming from.What’s more friendly that a simple “hello”? This is probably the most common trend that I come across and is simply everywhere in designer portfolios these days. The idea is of course to make the site seem that much more alive and friendly, as if it’s a person welcoming you in. This is often effective when combined with a photo or
-        </p>
-        </div>
+        <Header />
+        <main>
+          <div className="hero">
+            <div className="hero-content">
+              <h1 className="hero-title">TumoMe</h1>
+              <p className="tite">The best and most comprehensive website ever.</p>
+            </div>
+          </div>
+          <div className="site-section">
+            <div className="site-section-inside">
+
+              <div className="section-header">
+                <h2>Features</h2>
+              </div>
+              <div className="feature-box">
+                <h5>Easy to Use</h5>
+                <p>Use it!</p>
+              </div>
+
+              <div className="feature-box">
+                <h5>Fun to Use</h5>
+                <p>Like it!</p>
+              </div>
+              <div className="feature-box">
+                <h5>You'll Love It</h5>
+                <p>Share it!</p>
+              </div>
+            </div>
+          </div>
+          <div className="site-section site-section-secondary">
+            <div className="site-section-inside">
+
+              <div className="section-header">
+                <h2>What the people say</h2>
+              </div>
+
+              <div className="testimonial-box">
+                <div className="testimonial-content">
+                  Their service is by far the most influential I've ever seen.
+                </div>
+                <div className="testimonial-author">
+                  <h5>David East</h5>
+                  <span>King of Firebase</span>
+                </div>
+              </div>
+              <div className="testimonial-box">
+                <div className="testimonial-content">
+                  Their service is by far the most influential I've ever seen.
+                </div>
+                <div className="testimonial-author">
+                  <h5>Holly Lloyd</h5>
+                  <span>Queen of Scotch</span>
+                </div>
+              </div>
+              <div className="testimonial-box">
+                <div className="testimonial-content">
+                  Their service is by far the most influential I've ever seen.
+                </div>
+                <div className="testimonial-author">
+                  <h5>Brad Green</h5>
+                  <span>King of Angular</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </main>
         <Footer />
       </div>
     );

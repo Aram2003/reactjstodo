@@ -1,18 +1,55 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer.js';
-import Jumbotron from '../components/Jumbotron.js';
 import Header from './Header.js';
+
 class About extends Component {
   render() {
     return (
-      <div className='ee'>
+      <div className="container-contact100">
         <Header />
-        <Jumbotron title="Contact" subtitle="Contact us" />
-        <div className='content_div'>
-          <div className="iframe">
-            <iframe
-              width="450" height="300"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.568601829105!2d44.47848296122051!3d40.19641309416824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd719b57919b%3A0x6f5b51aee4e64196!2sTumo!5e0!3m2!1sen!2s!4v1521730565923" allowfullscreen></iframe>
+        <div className="wrap-contact100">
+          <form className="contact100-form validate-form">
+            <span className="contact100-form-title">
+              Send Us A Message
+      </span>
+            <div className="wrap-input100 validate-input" data-validate="Name is required">
+              <label className="label-input100" >Full name</label>
+              <input id="name" class="input100" type="text" name="name" placeholder="Enter your name..." />
+              <span className="focus-input100"></span>
+            </div>
+
+            <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+              <label className="label-input100" for="email">Email Address</label>
+              <input id="email" class="input100" type="text" name="email" placeholder="Enter your email..." />
+              <span className="focus-input100"></span>
+            </div>
+
+            <div className="wrap-input100">
+              <div className="label-input100">What do you need?</div>
+              <div>
+                <select className="js-select2" name="service">
+                  <option>Help</option>
+                  <option>Donate</option>
+                  <option>Offer</option>
+                </select>
+                <div className="dropDownSelect2"></div>
+              </div>
+              <span className="focus-input100"></span>
+            </div>
+
+            <div className="wrap-input100 validate-input" data-validate="Message is required">
+              <label className="label-input100" for="message">Message</label>
+              <textarea id="message" class="input100" name="message" placeholder="Type your message here..."></textarea>
+              <span className="focus-input100"></span>
+            </div>
+            <div className="container-contact100-form-btn">
+              <button className="contact100-form-btn">
+                Send
+        </button>
+            </div>
+          </form>
+
+          <div class="contact100-more flex-col-c-m gt">
           </div>
         </div>
         <Footer />
