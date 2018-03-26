@@ -25,7 +25,7 @@ class Todo extends Component {
  }
   render() {
     return (
-        <div>
+        <div className="wrapper">
           <Header/>
         <Jumbotron title="Todo" subtitle="simple todo list"/>
         <form onSubmit={this.onSubmit}>
@@ -36,6 +36,7 @@ class Todo extends Component {
         <button className="ki">Submit</button>
         </form>
         <List items={this.state.items} removeItem = {this.removeItem}/>
+        <p></p>
         <Footer />
         </div>
     );

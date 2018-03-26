@@ -4,11 +4,11 @@ class Header extends Component {
   render() {
     return (
      <header>
-      <nav className="navbar navbar-toggleable-md navbar-expand-lg hh">
+      <nav className="navbar navbar-toggleable-md navbar-expand-lg navbar-light bg-light hh">
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>     
-          <Link className="navbar-brand jk" to="/">TumoMe</Link>
+            <Link className="sd" to="/">TumoMe</Link>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="po">
                 <li>

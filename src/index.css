@@ -2,7 +2,6 @@
 *     {
   box-sizing: border-box;
 }
-
 body {
   background: #FFF;
   font-family: Arial, Helvetica, sans-serif;
@@ -27,29 +26,10 @@ body   {
   color: white;
   text-shadow: black 0.3em 0.3em 0.3em;
 }
-.navbar-brand:hover{
-    transform:scale(1.1);
-    transition-duration: 0.5s;
-    color:rgb(215, 255, 155);
-}
-.copyright{
-  color:white;
-  margin-left:4em;
-}
-.container-fluid{
-  padding-left: 0px;
-  padding-right:0px;
-}
-.jk{
-  margin-left:2.5em;
-  color:white;
-}
-.hh{
-  background:#5f5f5f;
-}
-.po{
-  margin-left:50em;
-}
+
+
+
+
 .wrapper {
   min-height: 100%;
 }
@@ -353,6 +333,9 @@ a:visited{
 	}
 	.footer-distributed .footer-center i{
 		margin-left: 0;
+  }
+  .sd{
+    margin-right:18em;
   }
 }
 
@@ -909,7 +892,6 @@ nav     {
 }
 nav ul   {
   list-style: none;
-  margin: 0;
 }
 nav ul li {
   display: inline-block;
@@ -935,3 +917,4 @@ header{
   background-image:url('./images/pp.jpg');
   margin-top:0.2em;
 }
+
