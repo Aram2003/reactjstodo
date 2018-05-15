@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Footer from './Footer.js';
-import Jumbotron from './Jumbotron.js';
 import List from './List.js';
 import Header from './Header.js';
 class Todo extends Component {
@@ -27,13 +26,16 @@ class Todo extends Component {
     return (
         <div className="wrapper">
           <Header/>
-        <Jumbotron title="Todo" subtitle="simple todo list"/>
+          <div className="hero mn">
+          <div className="hero-content">
+          </div>
+          </div>
         <form onSubmit={this.onSubmit}>
         <input className="tt" 
         placeholder="What's on Your Mind..."
         value={this.state.term}
         onChange={this.onChange} />
-        <button className="ki">Submit</button>
+        <input type="submit" className="ki" value= "Submit"/>
         </form>
         <List items={this.state.items} removeItem = {this.removeItem}/>
         <p></p>

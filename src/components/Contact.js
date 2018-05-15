@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer.js';
+import Footer from './Footer.js';
 import Header from './Header.js';
 
 class About extends Component {
@@ -17,13 +17,11 @@ class About extends Component {
               <input id="name" class="input100" type="text" name="name" placeholder="Enter your name..." />
               <span className="focus-input100"></span>
             </div>
-
             <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
               <label className="label-input100" for="email">Email Address</label>
               <input id="email" class="input100" type="text" name="email" placeholder="Enter your email..." />
               <span className="focus-input100"></span>
             </div>
-
             <div className="wrap-input100">
               <div className="label-input100">What do you need?</div>
               <div>
@@ -36,7 +34,6 @@ class About extends Component {
               </div>
               <span className="focus-input100"></span>
             </div>
-
             <div className="wrap-input100 validate-input" data-validate="Message is required">
               <label className="label-input100" for="message">Message</label>
               <textarea id="message" class="input100" name="message" placeholder="Type your message here..."></textarea>
@@ -48,7 +45,6 @@ class About extends Component {
         </button>
             </div>
           </form>
-
           <div class="contact100-more flex-col-c-m gt">
           </div>
         </div>
