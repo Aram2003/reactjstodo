@@ -10,8 +10,7 @@ class About extends Component {
         <main>
         <div className="container">
          <div className="hero kb">
-            <div className="hero-content">
-            </div>
+         
           </div>
          <div className="qos">
           <p clasName="fg">I am Aram Martirosyan.I am 14.I live in Yerevan,Armenia.I want to be a good programmer and I work hard for it.

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Footer from './Footer.js';
 import Header from './Header.js';
+
 class Home extends Component {
   render() {
     return (
       <div className='wrapper'>
         <Header />
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <main>
           <div className="hero">
             <div className="hero-content">
